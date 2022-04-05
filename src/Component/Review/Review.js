@@ -7,7 +7,7 @@ const Review = ({ reviewUser }) => {
         <div>
             <div className='shadow-sm bg-light text-center p-4'>
                 <h3>{name}</h3>
-                <h6>{rating}</h6>
+                <h6>rating  {rating}</h6>
                 <p>{review.slice(0, 80)}...</p>
             </div>
         </div>
